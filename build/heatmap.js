@@ -4,7 +4,7 @@
  * Copyright 2008-2016 Patrick Wied <heatmapjs@patrick-wied.at> - All rights reserved.
  * Dual licensed under MIT and Beerware license 
  *
- * :: 2016-09-05 01:16
+ * :: 2023-11-07 09:09
  */
 ;(function (name, context, factory) {
 
@@ -524,7 +524,7 @@ var Canvas2dRenderer = (function Canvas2dRendererClosure() {
 
       }
 
-      img.data = imgData;
+      // img.data = imgData;
       this.ctx.putImageData(img, x, y);
 
       this._renderBoundaries = [1000, 1000, 0, 0];

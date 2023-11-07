@@ -3,6 +3,9 @@
   "version": "2.0.5",
   "description": "Dynamic JavaScript Heatmaps for the Web",
   "homepage": "https://www.patrick-wied.at/static/heatmapjs/",
+  "scripts": {
+    "build": "grunt concat"
+  },
   "author": {
     "name": "Patrick Wied",
     "email": "heatmapjs@patrick-wied.at",

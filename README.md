@@ -53,3 +53,11 @@ If you do have a very specific question (or need commercial support) don't hesit
 Want to receive the latest updates and news about heatmap.js? 
 
 There is a [mailing list](http://eepurl.com/0mmV5). No spam, just news and important updates.
+
+## Rebuild
+
+setup cli 
+
+npm install -g grunt-cli
+
+run  yarn build
