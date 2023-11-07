@@ -1,5 +1,5 @@
 {
-  "name": "heatmap.js",
+  "name": "@caine/heatmap",
   "version": "2.0.5",
   "description": "Dynamic JavaScript Heatmaps for the Web",
   "homepage": "https://www.patrick-wied.at/static/heatmapjs/",
@@ -7,7 +7,7 @@
     "build": "grunt concat"
   },
   "author": {
-    "name": "Patrick Wied",
+    "name": "caine.luo",
     "email": "heatmapjs@patrick-wied.at",
     "url": "https://www.patrick-wied.at/"
   },
@@ -45,5 +45,9 @@
     "src/renderer.js",
     "src/util.js",
     "src/core.js"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
